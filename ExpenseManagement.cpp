@@ -12,7 +12,7 @@ void ExpenseManagement::listExpenses() const {
   }
 
   for (const auto &exp : expenses) {
-    std::cout << exp.getName() << " - " << exp.getAmount() << "-"
+    std::cout << exp.getName() << " - KSH." << exp.getAmount() << " - "
               << exp.getDate() << std::endl;
   }
 }
